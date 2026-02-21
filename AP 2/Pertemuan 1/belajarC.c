@@ -14,7 +14,7 @@ int main()
     gets(nama); // gets - get string
 
     printf("Masukkan Nim: ");
-    scanf("%d, &nim");
+    scanf("%d", &nim);
 
     getchar();
 
@@ -32,5 +32,8 @@ int main()
     puts (kom);
 
     printf("Ip : %f\n", ip);
+
+    printf("Press any button to continue...");
+    getch();
 
 }
